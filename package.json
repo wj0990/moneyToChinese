@@ -1,0 +1,35 @@
+{
+  "name": "@wj/money-to-chinese",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Convert the amount to Chinese uppercase.",
+  "author": "Jie Wang<379925517@qq.com>",
+  "keywords": [
+    "money",
+    "chinese",
+    "amount to Chinese",
+    "capital",
+    "capitalization",
+    "block letter"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "watch": "tsbb watch --disable-babel --file-names src/index.ts",
+    "build": "tsbb build --disable-babel --file-names src/index.ts",
+    "test": "npm run build && tsbb test",
+    "coverage": "npm run build && tsbb test --coverage --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/tsbb/tree/master/example/basic"
+  },
+  "files": [
+    "src",
+    "lib"
+  ],
+  "devDependencies": {
+    "tsbb": "^3.7.7"
+  }
+}
