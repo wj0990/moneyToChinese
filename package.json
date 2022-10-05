@@ -1,6 +1,5 @@
 {
   "name": "@wj/money-to-chinese",
-  "private": true,
   "version": "1.0.0",
   "description": "Convert the amount to Chinese uppercase.",
   "author": "Jie Wang<379925517@qq.com>",
@@ -20,6 +19,10 @@
     "build": "tsbb build --disable-babel --file-names src/index.ts",
     "test": "npm run build && tsbb test",
     "coverage": "npm run build && tsbb test --coverage --bail"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
