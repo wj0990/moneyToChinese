@@ -6,13 +6,13 @@ JavaScript function for converting amount to Chinese uppercase.
 ## Installation
 
 ```bash
-npm install moneyToChinese
+npm install @wcxi/money-to-chinese
 ```
 
 ## Usage
 
 ```js
-import moneyToChinese form 'moneyToChinese';
+import moneyToChinese form '@wcxi/money-to-chinese';
 
 moneyToChinese(100.15);
 //⇒ "壹佰元壹角伍分"
